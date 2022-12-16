@@ -17,6 +17,7 @@ namespace ShushaPharmacy.Data
         static ApplicationDbContext()
         {
             Users = new List<User>();
+            Products = new List<Product>();
         }
 
     }
