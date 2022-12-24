@@ -62,7 +62,7 @@
             this.dgv_products.Name = "dgv_products";
             this.dgv_products.RowHeadersWidth = 51;
             this.dgv_products.RowTemplate.Height = 29;
-            this.dgv_products.Size = new System.Drawing.Size(803, 188);
+            this.dgv_products.Size = new System.Drawing.Size(1003, 188);
             this.dgv_products.TabIndex = 0;
             // 
             // clmn_id
@@ -113,6 +113,7 @@
             this.txbx_name.Name = "txbx_name";
             this.txbx_name.Size = new System.Drawing.Size(156, 27);
             this.txbx_name.TabIndex = 1;
+            this.txbx_name.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txbx_name_KeyUp);
             // 
             // label1
             // 
@@ -138,6 +139,7 @@
             this.txbx_price.Name = "txbx_price";
             this.txbx_price.Size = new System.Drawing.Size(156, 27);
             this.txbx_price.TabIndex = 3;
+            this.txbx_price.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txbx_price_KeyUp);
             // 
             // label3
             // 
@@ -154,6 +156,7 @@
             this.txbx_id.Name = "txbx_id";
             this.txbx_id.Size = new System.Drawing.Size(156, 27);
             this.txbx_id.TabIndex = 5;
+            this.txbx_id.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txbx_id_KeyUp);
             // 
             // label4
             // 
